@@ -14,6 +14,11 @@ table 50301 "Equipment Setup"
             Caption = 'Equipment Nos.';
             TableRelation = "No. Series";
         }
+        field(3; "Loan Nos."; Code[20])
+        {
+            Caption = 'Loan Nos.';
+            TableRelation = "No. Series";
+        }
     }
     keys
     {

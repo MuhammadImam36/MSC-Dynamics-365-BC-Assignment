@@ -20,6 +20,11 @@ page 50300 "Equipment Setup"
                     ApplicationArea = All;
                     ToolTip = 'Specifies the number series used to assign codes to new equipment.';
                 }
+                field("Loan Nos."; Rec."Loan Nos.")
+                {
+                    ApplicationArea = All;
+                    ToolTip = 'Specifies the number series used to assign numbers to new loan documents.';
+                }
             }
         }
     }

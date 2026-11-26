@@ -3,7 +3,7 @@ table 50300 Equipment
     Caption = 'Equipment';
     DataClassification = CustomerContent;
     LookupPageId = "Equipment List";
-    DrillDownPageId = "Equipment List";
+    // DrillDownPageId = "Equipment List";
 
     fields
     {

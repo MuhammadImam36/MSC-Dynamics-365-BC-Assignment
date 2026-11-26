@@ -22,6 +22,13 @@ pageextension 50300 "Equipment BM RC Ext" extends "Business Manager Role Center"
                     RunObject = page "Equipment Setup";
                     ToolTip = 'Open the equipment setup.';
                 }
+                action(LoanList)
+                {
+                    ApplicationArea = All;
+                    Caption = 'Loans';
+                    RunObject = page "Loan List";
+                    ToolTip = 'Open the list of loan documents.';
+                }
             }
         }
     }
